@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+}
+h1, h2, h3 ,h4, h5 {color: #242D62;}
+header{
+    background: url("/hero-bg.png") no-repeat top right;
+    background-size: contain ;
+    width: 100%;
+    height: 80vh;
+}
+.hero-content {
+    height: 80vh;
+}
+.primary{
+    color: #159EEC;
+}
+header h1{
+    color: #242D62;
+
+}
+h4{padding: 0;
+margin: 0;}
+p{
+    color: #6D7394;
+    margin: 0;
+}
+.brands-logo img{width: 180px; margin: 15px;}
+input[type="text"] {
+    background: #F1F9FE;
+    border: none;
+    padding: 19px;
+    width: 90%;
+    border-radius: 8px;
+}
+
+ input[type="submit"] {
+    color: #fff;
+    background: #159EEC;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 120px;
+    margin-left: -140px;
+    margin-top: 5vh;
+}
+.box-cat   {
+    background-color: #F1F9FE;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 30px;
+    height: 200px;
+}
+.ex-box-cat{
+    background: linear-gradient(124deg, rgba(186,210,255,1) 0%, rgba(21,158,236,1) 100%);
+    color: #fff;
+    padding: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.services h1{
+    color: #242D62;
+}
+.icon{
+    background-color: #F1F9FE;
+    width: 75px;
+}
+.services h5 {color: #242D62;}
+.services p{
+    color: #6D7394;
+}
+.singel-job-card {
+    background-color:  #F1F9FE;
+    border-radius: 10px;
+}
+.company-name{
+    color: #242D62;
+    font-weight: 700;
+}
+.blog-cat,.job-cat{color: #159EEC;
+background-color: rgba(21, 158, 236, 0.15);
+font-weight: 700;
+border-radius: 5px;}
+.singel-job-card h2 {color: #242D62;}
+.job-meta i  {
+    color: #159EEC;
+}
+.job-meta {font-weight: 700; display: flex; }
+.view-all{
+    background-color: #159EEC;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+ font-weight: bold;
+}
+.subscribe, .testimonial{background: rgb(186,210,255);
+    background: linear-gradient(124deg, rgba(186,210,255,1) 0%, rgba(21,158,236,1) 100%);}
+
+img{
+        width: 100%;
+    }
+.testimonial-card{
+    border: 2px solid #fff;
+    border-radius: 10px;
+  
+}
+a {color: #159EEC ; font-weight: bold;}
+.testimonial-card p {margin: 0;padding: 0;}
+.pro-pic img {width: 72px;}
+.box-cat img{
+    width: 60px;
+}
+
+.card-blog{
+    border-radius: 10px;
+    background-color: #F1F9FE;
+    overflow: hidden;
+}
+
+.thumb{
+    width: 100%;
+    height: 200px;
+    background-color: #6D7394;
+    margin: 0;
+    padding: 0;
+}
+.footer-menus  img{
+    width: 200px;
+}
+.list-group-item{border: none;}
+.footer-text {
+    border-top: 2px solid #ddd;
+}
+li {
+    list-style: none;
+    padding: 10px;
+}
