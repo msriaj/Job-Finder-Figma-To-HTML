@@ -8,7 +8,7 @@ body{
 }
 h1, h2, h3 ,h4, h5 {color: #242D62;}
 header{
-    background: url("/hero-bg.png") no-repeat top right;
+    background: url("hero-bg.png") no-repeat top right;
     background-size: contain ;
     width: 100%;
     height: 80vh;
